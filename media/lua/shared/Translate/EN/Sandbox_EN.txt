@@ -1,0 +1,4 @@
+Sandbox_EN = {
+	Sandbox_LightBulbConditionMax = "Maximum Light Bulb Condition",
+	Sandbox_LightBulbConditionMax_tooltip = "Set light bulb maximum condition, eg. 125 or 200",
+}
