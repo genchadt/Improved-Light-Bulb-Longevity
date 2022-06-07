@@ -6,14 +6,14 @@ if not TweakItem then TweakItem = {} end
 if not TweakItemValues then TweakItemValues = {} end
 
 function ItemTweak.tweakItems()
-    local item;
-    -- for each key and value in the table TweakItemValues, do this
+    local item
+    -- iterate through each value in TweakItemValues
     for k,v in pairs(TweakItemValues) do
-        -- for each key and value in the table
+        -- iterate through nested table in TweakItemValues (itemProperty = propertyValue)
         for t,y in pairs(v) do
-            item = ScriptManager.Instance:getItem();
+            item = ScriptManager.Instance:getItem()
             if item ~= nil then
-                item.DoParam(t.." = "..y);
+                item.DoParam(t.." = "..y)
             end
         end
     end
@@ -23,8 +23,8 @@ end
 -- Then, pass it into the TweakItemValues table
 function TweakItem(itemName, itemProperty, propertyValue)
     if not TweakItemValues[itemName] then
-        TweakItemValues[itemName] = {};
+        TweakItemValues[itemName] = {}
     end
+    -- indices 1 and 2 are strings, indice 3 is another table
+    TweakItemValues[itemName][itemProperty] = propertyValue
 end
-
-Events.OnGameBoot.Add(ItemTweak.tweakItems)
