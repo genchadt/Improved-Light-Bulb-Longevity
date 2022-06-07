@@ -1,11 +1,12 @@
 -- List bulbs here
--- Module name and Item IDs are listed in the scripts folder in .txt files
+-- Module name and Item IDs are listed in the scripts folder in newitems.txt files
+-- Edit the item's parameters
 
-function BulbList()
-    -- Enter new bulbs in the array below
+function BulbIDs()
+    -- Enter new bulbs in the table below
     Bulbs =
     {
-        --"ModuleName.ItemID",        <- Base game item, most use Base module but some mods use their own
+        --"ModuleName.ItemID",        <- Base game items, most use Base module but some mods use their own
         "Base.LightBulb",
         "Base.LightBulbRed",
         "Base.LightBulbGreen",
