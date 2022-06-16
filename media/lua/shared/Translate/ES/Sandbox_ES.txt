@@ -1,4 +1,4 @@
 Sandbox_ES = {
-	Sandbox_GeneratorConditionMax = "Condición máxima del generador",
-	Sandbox_GeneratorConditionMax_tooltip = "Establezca la condición máxima del generador, por ej. 125 o 200",
+	Sandbox_GeneratorConditionMax = "Condición máxima de la bombilla",
+	Sandbox_GeneratorConditionMax_tooltip = "Establezca la condición máxima de la bombilla, p. 125 o 200",
 }

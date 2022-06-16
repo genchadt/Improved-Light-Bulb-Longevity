@@ -1,0 +1,4 @@
+Sandbox_RU = {
+	Sandbox_LightBulbConditionMax = "Максимальное состояние лампочки",
+	Sandbox_LightBulbConditionMax_tooltip = "Установите максимальное состояние лампочки, например. 125 или 200",
+}

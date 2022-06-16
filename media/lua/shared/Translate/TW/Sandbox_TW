@@ -1,0 +1,4 @@
+Sandbox_TW = {
+	Sandbox_LightBulbConditionMax = "最大燈泡條件",
+	Sandbox_LightBulbConditionMax_tooltip = "設置燈泡最大條件，例如。 125 或 200",
+}

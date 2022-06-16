@@ -1,5 +1,4 @@
--- Code inspired by DarkSlayerEX's Item Tweaker API mod. It's a series of FOR IN loops
--- and his implementation helped me to better understand how they work
+-- Code inspired by DarkSlayerEX's Item Tweaker API mod.
 
 if not ItemTweak then ItemTweak = {} end
 if not TweakItem then TweakItem = {} end
