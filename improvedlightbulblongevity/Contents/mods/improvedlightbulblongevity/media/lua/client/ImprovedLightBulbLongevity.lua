@@ -1,11 +1,11 @@
 require("BulbList.lua")
 require("ItemTweak.lua")
 
-function ImprovedLightBulbLongevity.SetBulbConditionMax()
+function SetBulbConditionMax()
   -- Get desired max condition value from Sandbox option/.ini and BulbList.lua
-  local itemID  = Bulbs {};
-  local param   = "ConditionMax";
-  local value   = SandboxVars.ImprovedLightBulbLongevity.LightBulbConditionMax;
+  local itemID  = Bulbs {}
+  local param   = "ConditionMax"
+  local value   = SandboxVars.ImprovedLightBulbLongevity.LightBulbConditionMax
 
   -- Make sure the data exists, for each pair in table (itemID), tweak its condition
   if itemID ~= nil and value ~= nil then
@@ -17,4 +17,4 @@ function ImprovedLightBulbLongevity.SetBulbConditionMax()
 end
 
 -- Run on game boot
-Events.OnGameBoot.Add(ImprovedLightBulbLongevity.SetBulbConditionMax)
+Events.OnGameBoot.Add(SetBulbConditionMax)
