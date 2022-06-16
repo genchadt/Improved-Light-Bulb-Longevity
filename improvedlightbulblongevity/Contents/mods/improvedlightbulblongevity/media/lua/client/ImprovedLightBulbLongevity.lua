@@ -3,7 +3,7 @@ require("ItemTweak.lua")
 
 function SetBulbConditionMax()
   -- Get desired max condition value from Sandbox option/.ini and BulbList.lua
-  local itemID  = Bulbs
+  local itemID = Bulbs
   local param = "ConditionMax"
   local value = SandboxVars.ImprovedLightBulbLongevity.LightBulbConditionMax
 
