@@ -13,7 +13,7 @@ function SetBulbConditionMax()
   -- Make sure the data exists, for each pair in table (itemID), tweak its condition
   if itemID ~= nil and value ~= nil then
     for k,v in pairs(itemID) do
-      TweakItem(v, param, value)
+      TweakItem(k, param, value)
     end
   end
   print("Light Bulb Max Condition: "..value)
