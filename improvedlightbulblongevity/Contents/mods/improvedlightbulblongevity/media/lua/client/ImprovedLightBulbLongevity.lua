@@ -1,5 +1,8 @@
-require("BulbList.lua")
-require("ItemTweak.lua")
+require("BulbList")
+
+if getActivatedMods():contains("GCT_API") then
+  require ("ItemTweak")
+end
 
 function SetBulbConditionMax()
   -- Get desired max condition value from Sandbox option/.ini and BulbList.lua
@@ -15,3 +18,5 @@ function SetBulbConditionMax()
   end
   print("Light Bulb Max Condition: "..value)
 end
+
+Events.OnGameBoot.Add(SetBulbConditionMax)
