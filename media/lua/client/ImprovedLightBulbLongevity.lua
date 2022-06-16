@@ -7,8 +7,8 @@ function ImprovedLightBulbLongevity.SetBulbConditionMax()
   local param   = "ConditionMax";
   local value   = SandboxVars.ImprovedLightBulbLongevity.LightBulbConditionMax;
 
-  -- make sure the data exists, for each pair in table (itemID), tweak its condition
-  if itemID ~= nil then
+  -- Make sure the data exists, for each pair in table (itemID), tweak its condition
+  if itemID ~= nil and value ~= nil then
     for k,v in pairs(itemID) do
       TweakItem(v, param, value)
     end
@@ -16,4 +16,5 @@ function ImprovedLightBulbLongevity.SetBulbConditionMax()
   print("Light Bulb Max Condition: "..value)
 end
 
+-- Run on game boot
 Events.OnGameBoot.Add(ImprovedLightBulbLongevity.SetBulbConditionMax)
