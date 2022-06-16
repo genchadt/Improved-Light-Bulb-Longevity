@@ -3,6 +3,8 @@
         "ScriptManager",
         "SandboxVars",
         "Events",
-        "ImprovedLightBulbLongevity"
+        "ImprovedLightBulbLongevity",
+        "getActivatedMods",
+        "TweakItem"
     ]
 }
