@@ -1,0 +1,17 @@
+VERSION = 1,
+
+option ImprovedLightBulbLongevity.LightBulbs_ConditionMax
+{
+	type = integer,
+	default = 100, min = 1, max = 1000,
+	page = WorldOptions, 
+	translation = LightBulbs_ConditionMax,
+}
+
+option ImprovedLightBulbLongevity.LightBulbsColor_ConditionMax
+{
+	type = integer,
+	default = 10, min = 1, max = 1000,
+	page = WorldOptions,
+	translation = LightBulbsColor_ConditionMax
+}

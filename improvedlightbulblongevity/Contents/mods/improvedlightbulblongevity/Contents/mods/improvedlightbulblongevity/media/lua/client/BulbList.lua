@@ -5,8 +5,13 @@ Bulbs =
 {
     --"ModuleName.ItemID",        <- Base game items, most use Base module but some mods use their own
     "Base.LightBulb",
+}
+
+BulbsColor =
+{
     "Base.LightBulbRed",
     "Base.LightBulbGreen",
+    "Base.LightBulbBlue",
     "Base.LightBulbYellow",
     "Base.LightBulbCyan",
     "Base.LightBulbMagenta",
@@ -20,7 +25,7 @@ FlashlightBulbs =
     -- Empty for now, will be used for some mods
 }
 
-MiscBulbs = 
+MiscBulbs =
 {
     -- Same as above
 }

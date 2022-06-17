@@ -1,0 +1,6 @@
+Sandbox_EN = {
+	Sandbox_LightBulbs_ConditionMax = "Maximum Light Bulb Condition",
+	Sandbox_LightBulbs_ConditionMax_tooltip = "Set light bulb maximum condition, eg. 125 or 200",
+	Sandbox_LightBulbsColor_ConditionMax = "Maximum Colored Light Bulb Condition",
+	Sandbox_LightBulbsColor_ConditionMax_tooltip = "Set colored light bulb maximum condition. By default 1/10 that of white bulbs."
+}
