@@ -1,6 +1,6 @@
 Sandbox_TW = {
-	Sandbox_LightBulbConditionMax = "最大燈泡條件",
-	Sandbox_LightBulbConditionMax_tooltip = "設置燈泡最大條件，例如。 125 或 200",
+	Sandbox_LightBulbs_ConditionMax = "最大燈泡條件",
+	Sandbox_LightBulbs_ConditionMax_tooltip = "設置燈泡最大條件，例如。 125 或 200",
 	Sandbox_LightBulbsColor_ConditionMax = "最大有色燈泡條件",
 	Sandbox_LightBulbsColor_ConditionMax_tooltip = "設置彩色燈泡的最大條件。默認情況下是白色燈泡的 1/10。"
 }

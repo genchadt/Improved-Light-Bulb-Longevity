@@ -1,6 +1,6 @@
 Sandbox_IT = {
-	Sandbox_GeneratorConditionMax = "Condizione massima della lampadina",
-	Sandbox_GeneratorConditionMax_tooltip = "Impostare la condizione massima della lampadina, ad es. 125 o 200",
+	Sandbox_LightBulbs_ConditionMax = "Condizione massima della lampadina",
+	Sandbox_LightBulbs_ConditionMax_tooltip = "Impostare la condizione massima della lampadina, ad es. 125 o 200",
 	Sandbox_LightBulbsColor_ConditionMax = "Condizione massima della lampadina colorata",
 	Sandbox_LightBulbsColor_ConditionMax_tooltip = "Impostare la condizione massima della lampadina colorata. Di default 1/10 di quello delle lampadine bianche."
 }

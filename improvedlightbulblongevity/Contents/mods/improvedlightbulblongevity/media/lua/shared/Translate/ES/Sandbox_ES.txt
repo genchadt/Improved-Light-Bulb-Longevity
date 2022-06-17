@@ -1,6 +1,6 @@
 Sandbox_ES = {
-	Sandbox_GeneratorConditionMax = "Condición máxima de la bombilla",
-	Sandbox_GeneratorConditionMax_tooltip = "Establezca la condición máxima de la bombilla, p. 125 o 200",
+	Sandbox_LightBulbs_ConditionMax = "Condición máxima de la bombilla",
+	Sandbox_LightBulbs_ConditionMax_tooltip = "Establezca la condición máxima de la bombilla, p. 125 o 200",
 	Sandbox_LightBulbsColor_ConditionMax = "Condición máxima de bombillas de colores",
 	Sandbox_LightBulbsColor_ConditionMax_tooltip = "Establezca la condición máxima de la bombilla de color. Por defecto 1/10 el de las bombillas blancas."
 }

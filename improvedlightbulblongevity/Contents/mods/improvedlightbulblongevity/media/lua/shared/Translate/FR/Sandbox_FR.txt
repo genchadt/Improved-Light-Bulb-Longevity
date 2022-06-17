@@ -1,6 +1,6 @@
 Sandbox_FR = {
-	Sandbox_GeneratorConditionMax = "État maximal de l'ampoule",
-	Sandbox_GeneratorConditionMax_tooltip = "Réglez la condition maximale de l'ampoule, par ex. 125 ou 200",
+	Sandbox_LightBulbs_ConditionMax = "État maximal de l'ampoule",
+	Sandbox_LightBulbs_ConditionMax_tooltip = "Réglez la condition maximale de l'ampoule, par ex. 125 ou 200",
 	Sandbox_LightBulbsColor_ConditionMax = "Condition maximale de l'ampoule colorée",
 	Sandbox_LightBulbsColor_ConditionMax_tooltip = "Définissez la condition maximale de l'ampoule colorée. Par défaut 1/10 de celui des ampoules blanches."
 }

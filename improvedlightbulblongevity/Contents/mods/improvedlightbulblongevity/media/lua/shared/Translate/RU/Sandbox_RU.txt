@@ -1,6 +1,6 @@
 Sandbox_RU = {
-	Sandbox_LightBulbConditionMax = "Максимальное состояние лампочки",
-	Sandbox_LightBulbConditionMax_tooltip = "Установите максимальное состояние лампочки, например. 125 или 200",
+	Sandbox_LightBulbs_ConditionMax = "Максимальное состояние лампочки",
+	Sandbox_LightBulbs_ConditionMax_tooltip = "Установите максимальное состояние лампочки, например. 125 или 200",
 	Sandbox_LightBulbsColor_ConditionMax = "Максимальное состояние цветной лампочки",
 	Sandbox_LightBulbsColor_ConditionMax_tooltip = "Установите максимальное состояние цветной лампочки. По умолчанию 1/10 от белых лампочек."
 }
