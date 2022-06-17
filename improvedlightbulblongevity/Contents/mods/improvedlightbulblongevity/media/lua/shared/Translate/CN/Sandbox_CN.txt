@@ -1,0 +1,6 @@
+Sandbox_CN = {
+	Sandbox_GeneratorConditionMax = "最大灯泡条件",
+	Sandbox_GeneratorConditionMax_tooltip = "设置灯泡最大条件，例如。 125 或 200",
+	Sandbox_LightBulbsColor_ConditionMax = "最大有色灯泡条件",
+	Sandbox_LightBulbsColor_ConditionMax_tooltip = "设置彩色灯泡的最大条件。默认情况下是白色灯泡的 1/10。"
+}

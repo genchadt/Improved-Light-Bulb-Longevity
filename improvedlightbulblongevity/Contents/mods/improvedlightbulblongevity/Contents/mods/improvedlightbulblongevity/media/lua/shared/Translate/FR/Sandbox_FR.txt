@@ -1,4 +1,0 @@
-Sandbox_FR = {
-	Sandbox_GeneratorConditionMax = "État maximal de l'ampoule",
-	Sandbox_GeneratorConditionMax_tooltip = "Réglez la condition maximale de l'ampoule, par ex. 125 ou 200",
-}

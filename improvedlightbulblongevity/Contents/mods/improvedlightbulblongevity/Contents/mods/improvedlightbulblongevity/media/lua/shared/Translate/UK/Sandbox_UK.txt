@@ -1,4 +1,0 @@
-Sandbox_UK = {
-	Sandbox_GeneratorConditionMax = "Максимальний стан лампочки",
-	Sandbox_GeneratorConditionMax_tooltip = "Встановіть максимальний стан лампочки, напр. 125 або 200",
-}

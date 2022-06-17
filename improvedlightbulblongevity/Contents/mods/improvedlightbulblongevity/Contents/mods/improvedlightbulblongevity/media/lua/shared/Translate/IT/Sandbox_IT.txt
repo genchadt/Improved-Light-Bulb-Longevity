@@ -1,4 +1,0 @@
-Sandbox_IT = {
-	Sandbox_GeneratorConditionMax = "Condizione massima della lampadina",
-	Sandbox_GeneratorConditionMax_tooltip = "Impostare la condizione massima della lampadina, ad es. 125 o 200",
-}

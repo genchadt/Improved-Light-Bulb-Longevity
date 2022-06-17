@@ -1,4 +1,0 @@
-Sandbox_CN = {
-	Sandbox_GeneratorConditionMax = "最大灯泡条件",
-	Sandbox_GeneratorConditionMax_tooltip = "设置灯泡最大条件，例如。 125 或 200",
-}

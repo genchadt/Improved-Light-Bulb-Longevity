@@ -1,0 +1,6 @@
+Sandbox_UK = {
+	Sandbox_GeneratorConditionMax = "Максимальний стан лампочки",
+	Sandbox_GeneratorConditionMax_tooltip = "Встановіть максимальний стан лампочки, напр. 125 або 200",
+	Sandbox_LightBulbsColor_ConditionMax = "Максимальний стан кольорової лампочки",
+	Sandbox_LightBulbsColor_ConditionMax_tooltip = "Встановити максимальний стан кольорової лампочки. За замовчуванням 1/10 білих лампочок."
+}
