@@ -15,7 +15,7 @@ function SetBulbConditionMax()
   local item
 
   -- If data exists, fix each item's ConditionMax value
-  if BulbList ~= nil and bulbscolor_condition ~= nil then
+  if BulbList ~= nil and (bulbs_condition ~= nil and bulbs_condition ~= 100) then
     for k,v in pairs(BulbsList) do
       item = ScriptManager.instance:getItem(v)
       if item ~= nil then
@@ -26,7 +26,7 @@ function SetBulbConditionMax()
   end
 
   -- Do the same for colored light bulbs
-  if BulbsColorList ~= nil and bulbscolor_condition ~= nil then
+  if BulbsColorList ~= nil and (bulbscolor_condition ~= nil and bulbscolor_condition ~= 10) then
     for k,v in pairs(BulbsColorList) do
       item = ScriptManager.instance:getItem(v)
       if item ~= nil then
