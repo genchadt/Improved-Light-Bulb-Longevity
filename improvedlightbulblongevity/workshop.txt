@@ -1,12 +1,12 @@
 version=1
-id=2821566128
+id=2821892172
 title=Improved Light Bulb Longevity
-description=This mod allows you to set the max condition of lightbulbs.
+description=Set the maximum condition of all light bulbs.
 description=
-description=By default, all lightbulbs start at 100% but this should let you set it to 200% or higher.
+description=By default, light bulbs start at 100% condition with colored light bulbs starting at 10%.
 description=
-description=This mod MIGHT not change the initial value of light bulbs already installed, but looted ones should be at the correct value.
+description=This mod lets you take direct control of those values in the "World" options tab in Sandbox settings.
 description=
-description=Let me know in the comments if it works for you.
+description= Feel free to set all bulbs to 200% or 300%, or set them separately.
 tags=Build 41;Balance;Building;Items;Multiplayer
 visibility=public
